@@ -14,10 +14,17 @@
     overflow: hidden;
     height: 480px;
     position: relative;
+    padding: 0;
+    border: 0;
     video {
       position: absolute;
-      bottom: -70;
-      background-color: red;
+      bottom: -55;
+      padding-left: 38px;
+    }
+    img {
+      position: absolute;
+      max-width: 100%;
+      bottom: -2;
     }
   }
 }

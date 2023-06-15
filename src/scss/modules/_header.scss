@@ -1,0 +1,23 @@
+.eikonica-logo {
+  background-color: black;
+  img {
+    width: 5.3vw;
+  }
+}
+
+.header {
+  border-bottom: 1px solid #ffffff;
+  div {
+  }
+  .title-header {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    height: 480px;
+    position: relative;
+    video {
+      position: absolute;
+      bottom: -70;
+      background-color: red;
+    }
+  }
+}

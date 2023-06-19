@@ -2,3 +2,60 @@
   background-color: #002aff;
   color: white;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+  height: 13px;
+  position: relative;
+  top: 0.4vw;
+  right: 0vw;
+}
+
+.button {
+  background: rgb(255, 255, 255);
+  transition: width 0.5s;
+  user-select: none;
+}
+
+.button-1 {
+  width: 30px;
+  margin-right: 3px;
+}
+
+.button-2 {
+  width: 3.5px;
+  margin-right: 3px;
+}
+
+.button-3,
+.button-4 {
+  width: 13.75px;
+  margin-right: 2px;
+}
+
+.menu-overlay {
+  transition: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  background-color: black;
+}
+
+.menu-overlay.is-active {
+  pointer-events: all;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu-overlay-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

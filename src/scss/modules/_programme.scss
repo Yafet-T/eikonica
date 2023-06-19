@@ -1,0 +1,77 @@
+.programme {
+  padding: 0;
+  margin: 0 !important;
+  .title-programme {
+    background-color: #f6f6f6;
+    height: 22.625vw;
+  }
+  h3 {
+    font-family: HelveticaNeue;
+    font-weight: 300;
+    font-size: 3.75vw;
+    color: #000000;
+    letter-spacing: 7.67px;
+    line-height: 5.75vw;
+  }
+  span {
+    font-family: HelveticaNeue-BoldItalic;
+  }
+  .link {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 0 2.125vw 0 0;
+    position: absolute;
+    bottom: 1.75vw;
+    img {
+      width: 2.749vw;
+      margin: 0 10vw 0 0;
+    }
+    a {
+      font-family: HelveticaNeue;
+      font-size: 15px;
+      color: #002aff;
+      letter-spacing: 1.92px;
+      text-decoration: none;
+      margin: 0 0 0 2.313vw;
+    }
+  }
+}
+
+.reserve {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  padding: 0 !important;
+  h4 {
+    margin: 2.125vw 0 0 2.313vw;
+    font-family: HelveticaNeue-UltraLight;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 5.11px;
+    line-height: 51px;
+  }
+  span {
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 5.11px;
+    line-height: 51px;
+  }
+}
+
+.programme-ateliers {
+  padding: 0 !important;
+  background-color: rgb(255, 255, 255);
+  height: 28.313vw;
+  h4 {
+    font-family: HelveticaNeue-BoldItalic;
+    font-size: 3.75vw;
+    color: #000000;
+    letter-spacing: 7.67px;
+    margin: 2.688vw 0 0 2.313vw;
+  }
+}

@@ -1,0 +1,44 @@
+.last-year {
+  .last-year-title {
+    padding: 0 !important;
+    color: white;
+    background-color: #000000;
+  }
+  h3 {
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    font-size: 175px;
+    line-height: 147px;
+    span {
+      font-family: HelveticaNeue;
+      font-weight: 800;
+      font-style: italic;
+      font-size: 175px;
+      color: #ffffff;
+      line-height: 147px;
+    }
+  }
+}
+
+.year {
+  padding: 0 !important;
+}
+
+.year-2022 {
+  height: 15.313vw;
+  overflow: hidden;
+  background-color: #e6e6e6;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.year-2021 {
+  height: 15.313vw;
+  overflow: hidden;
+  background-color: #ff0c0c;
+  img {
+    width: 100%;
+  }
+}

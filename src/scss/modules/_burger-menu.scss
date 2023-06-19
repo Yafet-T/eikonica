@@ -1,6 +1,7 @@
 .burger-menu {
   background-color: #002aff;
   color: white;
+  padding: 15px 12px !important;
 }
 
 .menu {
@@ -44,7 +45,7 @@
   pointer-events: none;
   width: 0;
   height: 0;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .menu-overlay.is-active {
@@ -58,4 +59,77 @@
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+.fermer-menu {
+  margin: auto;
+}
+
+.menu-overlay {
+}
+
+.menu-overlay a {
+  font-family: Redaction50-Italic;
+  font-size: 100px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sous-menu {
+  padding: 8vw 20px;
+}
+
+.menu-overlay a:hover {
+  color: #002aff;
+  background-color: rgb(255, 255, 255);
+}
+
+.s-1 :hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.s-1 {
+  background-color: #002aff;
+  width: 911px;
+  height: 161px;
+  padding: 20px 100px;
+  margin-left: 271px;
+
+  a {
+    text-align: center;
+  }
+}
+
+.s-2 {
+  background-color: #002aff;
+  width: 919px;
+  height: 161px;
+  padding: 20px 100px;
+  margin-left: 471px;
+
+  a {
+    text-align: center;
+  }
+}
+
+.s-3 {
+  background-color: #002aff;
+  width: 931px;
+  height: 161px;
+  padding: 20px 100px;
+  margin-left: 264px;
+  a {
+    text-align: center;
+  }
+}
+
+.s-4 {
+  background-color: #002aff;
+  width: 572px;
+  height: 161px;
+  padding: 20px 45px;
+  margin-left: 511px;
+  a {
+    text-align: center;
+  }
 }

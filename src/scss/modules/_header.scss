@@ -1,16 +1,18 @@
 .eikonica-logo {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  padding: 18px 18px !important;
   img {
     width: 5.3vw;
+    margin-left: 1.25vw;
   }
 }
 
 .header {
-  border-bottom: 1px solid #ffffff;
   div {
   }
   .title-header {
     background-color: rgb(0, 0, 0);
+    border-top: 1px solid #ffffff !important;
     overflow: hidden;
     height: 480px;
     position: relative;
@@ -19,7 +21,8 @@
     video {
       position: absolute;
       bottom: -55;
-      padding-left: 38px;
+      padding-left: 2.375vw;
+      width: 87.5vw;
     }
     img {
       position: absolute;

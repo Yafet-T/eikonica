@@ -1,0 +1,69 @@
+.about {
+  .showreel {
+    width: 100%;
+    padding: 0 !important;
+  }
+  .about-video {
+    padding: 0 !important;
+    height: 56.688vw;
+    background-color: #002aff;
+    video {
+      overflow: hidden;
+      height: 100%;
+    }
+  }
+}
+
+.asking {
+  padding: 0 !important;
+  height: 56.688vw;
+  h3 {
+    font-family: HelveticaNeue;
+    font-weight: 300;
+    font-size: 3.75vw;
+    color: #ffffff;
+    letter-spacing: 7.67px;
+    line-height: 5.75vw;
+    height: 25.813vw;
+    margin: 2.938vw 0 0 2.313vw;
+  }
+  span {
+    font-family: HelveticaNeue-BoldItalic;
+  }
+  .explain {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 27.9vw;
+    position: relative;
+    p {
+      margin: 0 0 0 2.313vw;
+      font-family: HelveticaNeue;
+      font-size: 15px;
+      color: #000000;
+      letter-spacing: 1.92px;
+      padding: 3.25vw 10.688vw 0 0;
+    }
+  }
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0 2.125vw 0 0;
+  position: absolute;
+  bottom: 1.75vw;
+  img {
+    width: 2.749vw;
+    margin: 0 25vw 0 0;
+  }
+  a {
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    color: #002aff;
+    letter-spacing: 1.92px;
+    text-decoration: none;
+    margin: 0 0 0 2.313vw;
+  }
+}

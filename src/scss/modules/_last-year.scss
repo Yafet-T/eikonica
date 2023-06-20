@@ -1,6 +1,6 @@
 .last-year {
   .last-year-title {
-    padding: 0 !important;
+    padding: 5px 0 5px !important;
     color: white;
     background-color: #000000;
   }
@@ -29,6 +29,7 @@
   overflow: hidden;
   background-color: #e6e6e6;
   width: 100%;
+  position: relative;
   img {
     width: 100%;
   }
@@ -39,7 +40,30 @@
   overflow: hidden;
   background-color: #ff0c0c;
   width: 100%;
+  position: relative;
   img {
     width: 100%;
   }
+}
+
+.year p {
+  font-family: HelveticaNeue-BoldItalic;
+  font-size: 8.813vw;
+  color: #002aff;
+  letter-spacing: 13.26px;
+  text-align: right;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 7.375vw;
+  span {
+    color: #002aff;
+    font-family: Redaction100-Italic;
+  }
+}
+
+.year-2022 p {
+  position: absolute;
+  right: 0;
+  top: 7.375vw;
 }

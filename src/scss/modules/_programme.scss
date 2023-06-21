@@ -100,26 +100,3 @@
     padding: 2.375vw 4.563vw 0 0;
   }
 }
-
-.p-explain .p-link {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: space-between;
-  padding: 0 2.125vw 0 0;
-  position: absolute;
-  bottom: -14vw;
-  position: relative;
-  img {
-    width: 2.749vw;
-    margin: 0 21vw 0 2.313vw;
-  }
-  .p-a {
-    font-family: HelveticaNeue;
-    font-size: 15px;
-    color: #002aff;
-    letter-spacing: 1.92px;
-    text-decoration: none;
-    padding: 0 2.125vw 0 0;
-  }
-}

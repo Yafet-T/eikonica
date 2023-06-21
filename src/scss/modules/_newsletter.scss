@@ -1,16 +1,17 @@
 .newsletter-texte {
   background: #000000;
   color: white;
+  padding: 0 !important;
   h5 {
     font-family: PPNeueBit-Bold;
-    font-size: 51px;
+    font-size: 3.188vw;
     letter-spacing: 6.52px;
-    padding: 98px 0 0 6vw;
+    padding: 6.125vw 0 0 6vw;
   }
 
   p {
     font-family: HelveticaNeue;
-    font-size: 25px;
+    font-size: 1.563vw;
     letter-spacing: 0.53px;
     padding: 3vw 19.375vw 0 6vw;
   }
@@ -21,4 +22,25 @@
   img {
     width: 100%;
   }
+}
+
+.input {
+  background-color: white;
+  margin: 3vw 3.75vw 4.375vw 6vw;
+  padding: 1.5vw;
+  span {
+    font-family: HelveticaNeue-Thin;
+    font-size: 1.25vw;
+    color: #a1a1a1;
+    letter-spacing: 0.42px;
+    margin-right: 18.125vw;
+  }
+  img {
+    width: 2.749vw;
+  }
+}
+
+.newsletter-img img {
+  width: 100%;
+  height: 100%;
 }

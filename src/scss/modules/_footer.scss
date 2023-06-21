@@ -1,0 +1,96 @@
+.info-footer {
+  display: flex;
+  flex-direction: row;
+  h6 {
+    font-family: HelveticaNeue-Medium;
+    font-size: 1.25vw;
+    color: #ffffff;
+    letter-spacing: 0.42px;
+    margin-bottom: 2.5vw;
+  }
+}
+
+.f-email {
+  margin-right: 7vw;
+  div {
+    background: #002aff;
+    padding: 0.688vw 0.625vw 0.688vw 1.438vw;
+    display: flex;
+    flex-direction: row;
+    img {
+      width: 1.375vw;
+    }
+    p {
+      font-family: HelveticaNeue;
+      font-size: 1.063vw;
+      color: #ffffff;
+      letter-spacing: 0.36px;
+      margin-right: 6.188vw;
+    }
+  }
+}
+
+.info-footer {
+  padding: 6.375vw 0 0 6vw;
+}
+
+.f-company {
+  margin-right: 10vw;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    font-family: HelveticaNeue;
+    font-size: 1.063vw;
+    color: #c0c0c0;
+    letter-spacing: 0.36px;
+    margin-bottom: 1.563vw;
+  }
+}
+
+hr {
+  border: 1px solid #979797;
+  margin: 0 6.063vw;
+}
+
+.f-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1.75vw 0 3.75vw 0;
+  img {
+    width: 50px;
+  }
+  span {
+    font-family: HelveticaNeue;
+    font-size: 10px;
+    color: #ffffff;
+    letter-spacing: 0.21px;
+  }
+}
+
+footer hr {
+  margin-top: 6.25vw;
+}
+
+.f-flex {
+  display: flex;
+  flex-direction: column;
+  .f-social {
+    margin: 3vw 0vw 0;
+    div {
+      flex-direction: row;
+    }
+    img {
+      width: 1.375vw;
+      margin: 0 1.313vw 0 0;
+    }
+  }
+  h6 {
+    font-family: HelveticaNeue-Medium;
+    font-size: 1.25vw;
+    color: #ffffff;
+    letter-spacing: 0.42px;
+    margin-bottom: 2.5vw;
+  }
+}

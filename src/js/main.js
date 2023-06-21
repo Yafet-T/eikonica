@@ -28,3 +28,18 @@ menuOverlay.addEventListener("click", function () {
   openMenu();
 });
 //Fin du burgermenu
+//début du bouton
+const deButton = document.getElementById("de-button");
+const frButton = document.getElementById("fr-button");
+
+deButton.addEventListener("click", function () {
+  deButton.classList.add("active");
+  frButton.classList.remove("active");
+});
+
+frButton.addEventListener("click", function () {
+  frButton.classList.add("active");
+  deButton.classList.remove("active");
+});
+
+//Fin du bouton

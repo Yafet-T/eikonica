@@ -1,0 +1,22 @@
+.language-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.language-button {
+  font-family: PPNeueBit-Bold;
+  font-size: 1.875vw;
+  color: #ffffff;
+  background: #002aff;
+  letter-spacing: 0.239vw;
+  text-align: center;
+
+  padding: 0.938vw 1vw;
+  border: none;
+  cursor: pointer;
+}
+
+.language-button.active {
+  color: #000000;
+  background: #ffffff;
+}

@@ -4,3 +4,31 @@
   height: 70px;
   border: 0;
 }
+
+.button-container {
+  display: flex;
+  margin: 0 0 0 2.25vw;
+}
+
+.custom-button {
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px solid #ffffff;
+  border-radius: 393px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: 0.32px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 0.938vw;
+}
+
+.custom-button:hover {
+  background: #ffffff;
+  color: #000000;
+  transition: background-color 0.1s cubic-bezier(0, 0, 1, -0.13);
+}
+
+.custom-button:not(:hover) {
+  transition-delay: 0.1s;
+}

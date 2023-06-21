@@ -91,6 +91,7 @@
   border: 1px solid #979797;
   border-left: 0;
   padding: 0 !important;
+  position: relative;
   p {
     margin: 0 0 0 2.313vw;
     font-family: HelveticaNeue;
@@ -98,5 +99,27 @@
     color: #000000;
     letter-spacing: 1.92px;
     padding: 2.375vw 4.563vw 0 0;
+  }
+}
+
+.p-explain .p-link {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 2vw;
+  align-items: center;
+  img {
+    width: 2.749vw;
+    margin: 0 15vw 0 2.313vw;
+  }
+  .p-a {
+    font-family: HelveticaNeue;
+    font-size: 0.938vw;
+    color: #002aff;
+    letter-spacing: 1.92px;
+    text-decoration: none;
+    padding: 0 2.125vw 0 0;
   }
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208.0467px" height="140.1467px" viewBox="0 0 208.0467 140.1467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" transform="translate(0.023350, -0.076650)">
+            <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="208" height="140.2"></rect>
+            <polygon id="Path" stroke="#FFFFFF" stroke-width="9.0467" points="4.5 4.6 4.5 11.7 195.2 11.7 195.2 135.7 203.5 135.7 203.5 4.6"></polygon>
+            <rect id="Rectangle" fill-rule="nonzero" x="7.1" y="4.3" width="196.4" height="129"></rect>
+            <polygon id="Path" stroke="#FFFFFF" stroke-width="9.0467" points="16.5 128.8 11.7 123 194.2 8.8 199.1 14.6"></polygon>
+        </g>
+    </g>
+</svg>
